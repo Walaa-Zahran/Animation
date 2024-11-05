@@ -130,6 +130,7 @@ pdm.addEventListener("mouseenter", () => {
     transform: "translateY(0)",
     duration: 0.3,
     ease: "power1.out",
+    scale: 1.5,
   });
   gsap.to(adminGroup, { opacity: 0.3 });
   gsap.to(cadGroup, { opacity: 0.3 });
